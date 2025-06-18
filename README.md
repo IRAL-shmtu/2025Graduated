@@ -1,6 +1,6 @@
 # Graduation Projects by iRAL Students (Class of 2025)
 
-Welcome to the official repository of personal graduation projects from the **Class of 2025** members of the **Intelligent Robotics and Automation Lab (iRAL)**,  
+Welcome to the official repository of personal graduation projects from the **Class of 2025** members of the **iRAL**,  
 **College of Information Engineering, Shanghai Maritime University**.
 
 This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
@@ -41,7 +41,7 @@ For questions or collaboration requests, please reach out to:
 **iRAL Group**  
 College of Information Engineering  
 Shanghai Maritime University  
-📧 [Insert Contact Email or Lab Website]
+📧 [jiaojiajia@shmtu.edu.cn]
 
 ---
 
