@@ -5,7 +5,7 @@ College of Information Engineering, Shanghai Maritime University.
 
 This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
 
-- 🎓 **Final-year research papers**
+- 🎓 **Research papers**
 - 💻 **Project source code and demos**
 - 📂 **Open-source and private project directories**
 
@@ -20,15 +20,12 @@ Each graduate has a dedicated subdirectory under the `2025Graduated/` folder con
     └── …
 ```
 
-- The `/open_source` directory contains code licensed for public use.
-- The `/private` directory contains restricted materials that are **not open-source**, due to confidentiality or publication policies.
+- Each `README.md` includes:
+  - A brief description of the thesis topic
+  - Key contributions or highlights
+  - Links to the final paper and the graduate's personal code repository (e.g., GitHub)
 
 > All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
-
-## 📜 Licensing
-
-- Open-source components are individually licensed under the terms specified in each project.
-- For private parts, no license is granted. Redistribution or reuse without permission is strictly prohibited.
 
 ## 📬 Contact
 
