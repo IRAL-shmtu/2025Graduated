@@ -1,7 +1,7 @@
-# Graduation Projects by iRAL Students (Class of 2025)
+# Thesis Projects by iRAL Graduates (Class of 2025)
 
-Welcome to the official repository of personal graduation projects from the **Class of 2025** members of the **iRAL**,  
-**College of Information Engineering, Shanghai Maritime University**.
+Welcome to the official repository of thesis projects by the Class of 2025 graduates from iRAL,
+College of Information Engineering, Shanghai Maritime University.
 
 This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
 
@@ -11,23 +11,19 @@ This database serves as a centralized archive of the academic and engineering wo
 
 ## 📁 Repository Structure
 
-Each graduate has a dedicated subdirectory containing their project materials:
-
+Each graduate has a dedicated subdirectory under the `2025Graduated/` folder containing a single `README.md` file:
 ```
-/students/
+/2025Graduated/
     ├── Alice_Wang/
-    │   ├── paper.pdf
-    │   ├── README.md
-    │   ├── open_source/       # code that is publicly available
-    │   └── private/           # confidential or unpublished components (if any)
+    │   └── README.md    # Project summary and external links
     ├── Bob_Li/
-    └── ...
+    └── …
 ```
 
 - The `/open_source` directory contains code licensed for public use.
 - The `/private` directory contains restricted materials that are **not open-source**, due to confidentiality or publication policies.
 
-> If you're a team member, please contact your supervisor before sharing private components externally.
+> All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
 
 ## 📜 Licensing
 
