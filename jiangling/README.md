@@ -1,41 +1,9 @@
-# Thesis Projects by iRAL Graduates (Class of 2025)
+# GAN-DES：GAN Assisted Data Augmentation to Enhance Detection Accuracy of Evasive Spectre Attacks
 
-Welcome to the official repository of thesis projects by the Class of 2025 graduates from iRAL,
-College of Information Engineering, Shanghai Maritime University.
+GAN-DES is a hardware security detection framework that combines Generative Adversarial Networks (GANs) with deep learning-based detectors to identify evasive Spectre attacks. This project leverages a generator to simulate attack samples and trains a detector to distinguish between real and adversarial behaviors.
 
-This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
+github链接：https://github.com/bangchui951/GAN-DES
 
-- 🎓 **Research papers**
-- 💻 **Project source code and demos**
-- 📂 **Open-source and private project directories**
-
-## 📁 Repository Structure
-
-Each graduate has a dedicated subdirectory under the `2025Graduated/` folder containing a single `README.md` file:
-```
-/2025Graduated/
-    ├── Alice_Wang/
-    │   └── README.md    # Project summary and external links
-    ├── Bob_Li/
-    └── …
-```
-
-- Each `README.md` includes:
-  - A brief description of the thesis topic
-  - Key contributions or highlights
-  - Links to the final paper and the graduate's personal code repository (e.g., GitHub)
-
-> All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
-
-## 📬 Contact
-
-For questions or collaboration requests, please reach out to:
-
-**iRAL Group**  
-College of Information Engineering  
-Shanghai Maritime University  
-📧 [jiaojiajia@shmtu.edu.cn]
-
----
-
-Thank you for your interest in our work!
+# Evaluating Large Language Model Application Impacts on Evasive Spectre Attack Detection
+This paper investigates the impact of different Large Language Models (DeepSeek, Kimi and Doubao) on the attack detection success rate of evasive Spectre attacks while accessing text, image, and code tasks. By running different Large Language Models (LLMs) tasks concurrently with evasive Spectre attacks, a unique dataset with LLMs noise was constructed. Subsequently, clustering algorithms were employed to reduce the dimension of the data and filter out representative samples for the test set. Finally, based on a random forest detection model, the study systematically evaluated the impact of different task types on the attack detection success rate. The experimental results indicate that the attack detection success rate follows the pattern of “code > text > image” in both the evasive Spectre memory attack and the evasive Spectre nop attack. To further assess the influence of different architectures on evasive Spectre attacks, additional experiments were conducted on an NVIDIA RTX 3060 GPU. The results reveal that, on the RTX 3060, the attack detection success rate for code tasks decreased, while those for text and image tasks increased compared to the 2080 Ti. This finding suggests that architectural differences impact the manifestation of Hardware Performance Counters (HPCs), influencing the attack detection success rate.
+论文链接：https://doi.org/10.3390/electronics14071384
