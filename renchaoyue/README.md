@@ -1,41 +1,4 @@
-# Thesis Projects by iRAL Graduates (Class of 2025)
-
-Welcome to the official repository of thesis projects by the Class of 2025 graduates from iRAL,
-College of Information Engineering, Shanghai Maritime University.
-
-This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
-
-- 🎓 **Research papers**
-- 💻 **Project source code and demos**
-- 📂 **Open-source and private project directories**
-
-## 📁 Repository Structure
-
-Each graduate has a dedicated subdirectory under the `2025Graduated/` folder containing a single `README.md` file:
-```
-/2025Graduated/
-    ├── Alice_Wang/
-    │   └── README.md    # Project summary and external links
-    ├── Bob_Li/
-    └── …
-```
-
-- Each `README.md` includes:
-  - A brief description of the thesis topic
-  - Key contributions or highlights
-  - Links to the final paper and the graduate's personal code repository (e.g., GitHub)
-
-> All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
-
-## 📬 Contact
-
-For questions or collaboration requests, please reach out to:
-
-**iRAL Group**  
-College of Information Engineering  
-Shanghai Maritime University  
-📧 [jiaojiajia@shmtu.edu.cn]
-
----
-
-Thank you for your interest in our work!
+# Evaluating Boundary Restriction Methods Against Hardware Transient Faults on Website Fingerprinting Attacks
+Boundary restriction methods are increasingly used to mitigate the impacts of transient hardware faults due to their low overhead and ease of use. Besides the typical safety-critical applications such as self-driving and health-care, the machine learning-assisted website fingerprinting (WF) attacks, which aim to infer sensitive user activities from encrypted traffic patterns, require high computational reliability.However, transient hardware faults (e.g., bit-flips) may degrade attack accuracy by distorting feature extraction. Therefore, this paper aims to enhance the robustness of website fingerprinting (WF) attack models against hardware transient faults by evaluating boundary restriction methods.Three boundary restriction methods including layer-level clipping, neuron-level smooth restrictions, and hybrid strategies are selected for mitigating fault propagation in the WF learning models. The evaluation of fault containment efficacy is through hardware-calibrated fault injection across convolutional (Conv), activation, and fully-connected (FC) layers.The experiments on interrupt-driven datasets reveal that layer-level approaches maintain inference accuracy yet show limited fault resilience. Neuron-level methods reduce fault propagation but degrade feature extraction, with accuracy drops of 2.78% in fault-free scenarios and nonlinear performance decay under increasing Bit Error Rates (BERs).Hybrid strategies balance these tradeoffs by selectively integrating layer-level and neuron-level restrictions, achieving 35.3% accuracy under BER equal to 3 × 10⁻⁶ while maintaining moderate fault-free accuracy (0.32% drop). The comprehensive results analysis provides design principles for integrating boundary restrictions into reliable WF attacks while harmonizing hardware reliability and algorithmic precision.
+# Args: An automatic range generator for self-correcting deep neural networks under hardware transient faults
+Hardware transient faults are proven to have more significant impacts on deep neural networks (DNNs) in safety-critical applications (e.g., autonomous vehicles, healthcare, and space). Unlike the high overhead of redundant methods, setting boundaries for self-correction can exploit the inherent fault-tolerant characteristics of DNNs for high robustness. This cost-effective approach has been widely used via static profiling to provide fixed boundaries or generate boundaries dynamically just for Relu activation.To further improve the successful self-correction rate, this paper proposes Args, an automatic range generator for self-correcting DNNs under hardware transient faults. Args uses a well-generalized gradient-ascent-based algorithm for all DNN layers including Convolution, Activation, Pooling, Normalization, Fully-connected layers, and so on. It also adopts Interquartile range (IQR) analysis for optimizing initial boundary.More importantly, a common pretrained model on large-scale datasets is fused with each target DNN model for a specific application for characterizing more feature information to distinguish abnormal values and dynamic changes well. Interestingly, this fusion strategy also makes a smaller optimal sampling size for training target models, so that the automatic generation procedure can be accelerated well.The comprehensive results on three datasets demonstrate that our proposed method Args can achieve up to 90.21% successful self-correction rate, higher accuracy, and lower RMSE than the state-of-the-art works such as Ranger, BReLU, and ProACT under hardware transient faults with only 4.16% extra running time.
