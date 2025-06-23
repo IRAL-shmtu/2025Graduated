@@ -1,41 +1,5 @@
-# Thesis Projects by iRAL Graduates (Class of 2025)
+# LLM-WFIN: A Fine-Grained Large Language Model (LLM)-Oriented Website Fingerprinting Attack via Fusing Interrupt Trace and Network Traffic
+Popular Large Language Models (LLMs) access uses website browsing and also faces website fingerprinting attacks. Website fingerprinting attacks have increasingly threatened website users to the leakage of browsing privacy. In addition to the often-used network traffic analysis, interrupt tracing exploits the microarchitectural side channels to be a new compromising method and assists website fingerprinting attacks on non-LLM websites with up to 96.6% classification accuracy. More importantly, our observations show that LLM website access performs inherent defense and decreases the attack classification accuracy to 6.5%. This resistance highlights the need to develop new website fingerprinting attacks for LLM websites. Therefore, we propose a fine-grained LLM-oriented website fingerprinting attack via fusing interrupt trace and network traffic (LLM-WFIN) to identify the browsing website and the content type accurately. A prior-fusion-based one-stage classifier and post-fusion-based two-stage classifier are trained to enhance website finger-printing attacks. The comprehensive results and ablation study on 25 popular LLM websites and varying machine learning methods demonstrate that LLM-WFIN using post-fusion achieves 97.2% attack classification accuracy with no defense and outperforms prior-fusion with 81.6% attack classification accuracy with effective defenses.
+论文链接：https://www.mdpi.com/2079-9292/14/7/1263
+github链接：https://github.com/Blackmores6-Haro/LLM-WFIN
 
-Welcome to the official repository of thesis projects by the Class of 2025 graduates from iRAL,
-College of Information Engineering, Shanghai Maritime University.
-
-This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
-
-- 🎓 **Research papers**
-- 💻 **Project source code and demos**
-- 📂 **Open-source and private project directories**
-
-## 📁 Repository Structure
-
-Each graduate has a dedicated subdirectory under the `2025Graduated/` folder containing a single `README.md` file:
-```
-/2025Graduated/
-    ├── Alice_Wang/
-    │   └── README.md    # Project summary and external links
-    ├── Bob_Li/
-    └── …
-```
-
-- Each `README.md` includes:
-  - A brief description of the thesis topic
-  - Key contributions or highlights
-  - Links to the final paper and the graduate's personal code repository (e.g., GitHub)
-
-> All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
-
-## 📬 Contact
-
-For questions or collaboration requests, please reach out to:
-
-**iRAL Group**  
-College of Information Engineering  
-Shanghai Maritime University  
-📧 [jiaojiajia@shmtu.edu.cn]
-
----
-
-Thank you for your interest in our work!
