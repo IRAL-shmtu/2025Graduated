@@ -1,41 +1,5 @@
-# Thesis Projects by iRAL Graduates (Class of 2025)
+# BS-Mamba: A Robust Network for Breast Ultrasound Image Segmentation Using Mamba Architecture
 
-Welcome to the official repository of thesis projects by the Class of 2025 graduates from iRAL,
-College of Information Engineering, Shanghai Maritime University.
-
-This database serves as a centralized archive of the academic and engineering work completed by individual graduate students. It includes:
-
-- 🎓 **Research papers**
-- 💻 **Project source code and demos**
-- 📂 **Open-source and private project directories**
-
-## 📁 Repository Structure
-
-Each graduate has a dedicated subdirectory under the `2025Graduated/` folder containing a single `README.md` file:
-```
-/2025Graduated/
-    ├── Alice_Wang/
-    │   └── README.md    # Project summary and external links
-    ├── Bob_Li/
-    └── …
-```
-
-- Each `README.md` includes:
-  - A brief description of the thesis topic
-  - Key contributions or highlights
-  - Links to the final paper and the graduate's personal code repository (e.g., GitHub)
-
-> All project code and data are hosted externally by the respective authors. No source code is stored in this repository.
-
-## 📬 Contact
-
-For questions or collaboration requests, please reach out to:
-
-**iRAL Group**  
-College of Information Engineering  
-Shanghai Maritime University  
-📧 [jiaojiajia@shmtu.edu.cn]
-
----
-
-Thank you for your interest in our work!
+As a significant global health threat, breast cancer needs accurate ultrasound images segmentation for early intelligent diagnosis. Medical image segmentation has made extensive use of the well-known CNNs, transformers, and their variations. However, because of the intrinsic restrictions resulting from the intense complexity of transformers and breast ultrasound pictures, high performance and fast speed cannot be accomplished simultaneously. The research proposes a unique BS-Mamba architecture for rapid and reliable tumor segmentation of breast ultrasound images. It incorporates three new modules to extract multi-level feature for improving the breast image segmentation performance and speed. On the one hand, the BreastSegMamba block effectively captures both global and local high-resolution information, and processes complex features fast. On the other hand, the hybrid attention block is designed to strengthen the extraction of positional and channel features for accurate segmentation. Additionally, the data-sensitive fuzzy logic function focuses on the edges of the ultrasound images to enhance features in critical areas for higher segmentation performance. Through comprehensive experiments and ablation studies on the BUSI and Dataset B breast ultrasound datasets, BS-Mamba significantly outperforms the current state-of-the-art methods in terms of segmentation accuracy. With a Dice coefficient of 92.13% and an IoU of 86.42% on the BUSI dataset and a Dice coefficient of 92.62% and an IoU of 86.67% on Dataset B, respectively, BS-Mamba demonstrated exceptional segmentation performance. Furthermore, in comparison to other established models, BS-Mamba achieves a training time acceleration of up to 2.88×, further substantiating its computational efficiency.
+论文链接：https://www.worldscientific.com/doi/10.1142/S0218001425400026
+giuhub链接：https://github.com/654236646/BS-Mamba
